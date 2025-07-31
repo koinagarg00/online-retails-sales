@@ -1,75 +1,72 @@
-# online-retails-sales
-An end-to-end data analysis project using SQL, Python (EDA), and Power BI to uncover business insights from an online retail dataset. This project covers data cleaning, transformation, querying, and interactive dashboard creation to assist in data-driven decision-making for e-commerce.
+# 🛍️ Online Retail Sales Analysis
 
-Dataset [Download from kaggle](https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset)
-
-🧰 Tools & Technologies Used:
-
-SQL (MySQL) – advanced querying, window functions, subqueries
-
-Python – pandas, matplotlib, seaborn for EDA
-
-Power BI – interactive dashboard, DAX calculations, visuals
-
-Excel – initial exploration and data checks
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/-SQL-003B57?style=flat-square&logo=mysql&logoColor=white)
+![Power BI](https://img.shields.io/badge/-Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
+![EDA](https://img.shields.io/badge/-EDA-blue?style=flat-square)
+![Business Insights](https://img.shields.io/badge/-Business%20Insights-orange?style=flat-square)
 
 ---
 
-📁 Dataset:
+## 📌 Project Summary
 
-UCI Online Retail Dataset: Transactional data of an online UK-based retail store from 2010–2011.
-
-Features: InvoiceNo, StockCode, Description, Quantity, InvoiceDate, UnitPrice, CustomerID, Country
-
----
-
-✅ Key Features:
-
-✅ Data Cleaning: Removed nulls, handled duplicates, formatted date columns
-
-✅ Feature Engineering: Added TotalPrice, Month, and InvoiceType
-
-✅ Advanced SQL Analysis:
-
-Top products, top customers, and cancellation rate
-
-Monthly revenue trend and customer segmentation
-
-RFM segmentation and customer churn detection
-
-
-✅ Power BI Dashboard:
-
-KPIs: Total Revenue, Active Customers, Return Rate
-
-Time Series: Monthly Revenue, Order Count
-
-Interactive Filters: Country, Product, Date
+This project explores sales trends and customer behavior from an **Online Retail dataset**. It focuses on generating business insights using:
+- 🐍 Python for EDA & preprocessing
+- 📊 Advanced SQL queries for data slicing
+- 📈 Power BI dashboard for dynamic visualization
 
 ---
 
-📊 Dashboard Preview:
+## 📂 Dataset Overview
+
+- Source: Online Retail (UCI / Kaggle)
+- Size: ~540,000 transactions
+- Time Range: 1 year of online sales data
+- Fields include: `InvoiceNo`, `CustomerID`, `Country`, `UnitPrice`, `Quantity`, `InvoiceDate`
 
 ---
 
-📌 Business Insights:
+## 🔍 Analysis Highlights
 
-🇬🇧 UK had the highest number of customers and revenue
+### 🐍 Python (Pandas, Seaborn, Plotly)
+- Cleaned nulls, duplicates, negative values
+- Identified **top-selling products**, **seasonal trends**, **cancellations**
+- Performed **RFM Analysis** (Recency, Frequency, Monetary)
+- Visualized sales by country, product category & time
 
-🔁 ~15% of orders were returns (invoices starting with 'C')
+### 🛢️ SQL (Advanced Queries)
+- Used `GROUP BY`, `HAVING`, and `CASE` for conditional logic
+- Created tables to analyze:
+  - 🧾 Monthly Revenue
+  - 📦 Return Rate
+  - 🏷️ Top customers by value
 
-💰 Small group of customers contributed to the majority of revenue (Pareto Principle)
-
-📈 Seasonal spikes seen during Nov–Dec (holiday effect)
+### 📊 Power BI (Interactive Dashboard)
+- Built a report with:
+  - Slicers for Country & Date Range
+  - KPIs for Revenue, Returns, Quantity
+  - Bar & line charts for time series analysis
+  - Customer segmentation with filters
 
 ---
 
-🧠 What I Learned:
+## 📈 Key Findings
 
-Writing production-grade SQL for business analytics
+- 🇬🇧 **UK** was the primary customer base (~80% of revenue)
+- 📈 **November–December** had peak sales, especially for gifts
+- ❌ High return rate in **cancelled invoices** during January
+- 🧑‍💼 Small group of customers contributed to **bulk of sales (Pareto 80/20 rule)**
 
-Converting messy retail data into actionable insights
+---
 
-Building storytelling dashboards for stakeholders
+## 🧰 Tools & Technologies
 
-Creating reusable, scalable data models
+| Tool        | Use                                  |
+|-------------|---------------------------------------|
+| Python      | Data cleaning & EDA                  |
+| Pandas, Plotly, Seaborn | Data visualization         |
+| SQL         | Business querying and grouping        |
+| Power BI    | Dashboard creation with DAX formulas  |
+
+---
+
