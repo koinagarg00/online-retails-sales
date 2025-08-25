@@ -70,3 +70,12 @@ This project explores sales trends and customer behavior from an **Online Retail
 
 ---
 
+| **Category**      | **Tags**                                     |
+| ----------------- | -------------------------------------------- |
+| Languages & Tools | `#Python` `#SQL` `#PowerBI` `#Pandas`        |
+| Data Process      | `#EDA` `#DataCleaning` `#FeatureEngineering` |
+| Modeling          | `#DataModeling` `#StarSchema` `#DAX`         |
+| Analytics         | `#SalesAnalysis` `#BusinessIntelligence`     |
+| Visualization     | `#DashboardDesign` `#InteractiveDashboard`   |
+
+
